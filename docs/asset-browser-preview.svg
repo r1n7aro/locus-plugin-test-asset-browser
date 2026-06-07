@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-label="Asset browser preview">
+  <rect width="760" height="360" fill="#111318"/>
+  <rect x="26" y="24" width="708" height="312" rx="10" fill="#171a21" stroke="#2b303b"/>
+  <rect x="54" y="58" width="186" height="244" rx="6" fill="#101217" stroke="#2b303b"/>
+  <rect x="268" y="58" width="416" height="40" rx="6" fill="#101217" stroke="#2b303b"/>
+  <rect x="268" y="122" width="118" height="86" rx="6" fill="#202736" stroke="#3a4354"/>
+  <rect x="406" y="122" width="118" height="86" rx="6" fill="#1c2630" stroke="#3a4354"/>
+  <rect x="544" y="122" width="118" height="86" rx="6" fill="#242633" stroke="#3a4354"/>
+  <rect x="268" y="232" width="394" height="34" rx="5" fill="#101217" stroke="#2b303b"/>
+  <text x="74" y="88" fill="#d8dee9" font-family="Segoe UI, Arial" font-size="18" font-weight="600">Assets</text>
+  <text x="290" y="84" fill="#aab4c4" font-family="Segoe UI, Arial" font-size="15">Search Prefabs / Materials / Scripts</text>
+  <text x="302" y="174" fill="#d8dee9" font-family="Segoe UI, Arial" font-size="14">Prefab</text>
+  <text x="438" y="174" fill="#d8dee9" font-family="Segoe UI, Arial" font-size="14">Material</text>
+  <text x="584" y="174" fill="#d8dee9" font-family="Segoe UI, Arial" font-size="14">Script</text>
+</svg>
