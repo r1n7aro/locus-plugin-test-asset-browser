@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "com.locus.sample.asset-browser",
+  "name": "Asset Browser Tools",
+  "version": "0.1.0",
+  "compatibility": {
+    "projectIndependent": true
+  },
+  "dependencies": {
+    "project": []
+  },
+  "components": {
+    "agents": [],
+    "skills": [],
+    "views": []
+  }
+}
