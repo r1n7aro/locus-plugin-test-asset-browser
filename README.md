@@ -35,6 +35,6 @@ The package represents a small set of Unity editor helpers for teams that repeat
 
 ## Notes For Registry Testing
 
-This repository is intentionally minimal. The downloadable zip is a small plugin package, while this README acts as the rich `descriptionSource` content for the registry entry. The Hub should display this text after the card is clicked, with the fallback short description remaining available when the README cannot be loaded.
+This repository is intentionally minimal. The installable plugin package is published as a GitHub release asset. The repository keeps source-level fixture files and documentation, so the registry can download the release package without storing binary archives in the repository. This README acts as the rich `descriptionSource` content for the registry entry. The Hub should display this text after the card is clicked, with the fallback short description remaining available when the README cannot be loaded.
 
 See the registry entry in [locus-plugin-registry](https://github.com/r1n7aro/locus-plugin-registry/tree/test/v1/plugins/d0).
