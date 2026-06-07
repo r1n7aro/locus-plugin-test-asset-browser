@@ -1,2 +1,3 @@
-# locus-plugin-test-asset-browser
-Locus Plugin Hub test download target for asset browser metadata.
+# Locus Plugin Test Asset Browser
+
+Test download target for the Locus Plugin Hub registry branch.
