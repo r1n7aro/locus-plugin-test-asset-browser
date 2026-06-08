@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "com.locus.sample.asset-browser",
   "name": "Asset Browser Tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "projectIndependent": true
   },
@@ -11,7 +11,17 @@
   },
   "components": {
     "agents": [],
-    "skills": [],
-    "views": []
+    "skills": [
+      {
+        "id": "psd-parser",
+        "path": "skills/psd-parser"
+      }
+    ],
+    "views": [
+      {
+        "id": "hello-view",
+        "path": "views/hello-view"
+      }
+    ]
   }
 }
