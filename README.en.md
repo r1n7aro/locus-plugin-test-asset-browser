@@ -1,33 +1,20 @@
 # Asset Browser Tools
 
-Asset Browser Tools is a test fixture for the Locus Plugin Hub detail view. It models a compact Unity asset browsing helper and validates English rich descriptions, relative images, tables, and code blocks.
+Asset Browser Tools is a plugin import fixture for Locus. Version `0.1.1` includes a Hello View and a PSD Parser skill so direct local, repository-link, release, and registry installs can verify component discovery.
 
 ![Asset browser preview](docs/asset-browser-preview.svg)
 
-## Intended Capabilities
+## Included Components
 
-- Surface common Prefab, Material, and Script entry points
-- Keep reusable filters close to the current workflow
-- Group scene references by folder and asset type
-- Present asset inspection results in a compact layout
+| Component | Path | Purpose |
+| --- | --- | --- |
+| Hello View | `views/hello-view` | Confirms View package import and plugin-managed View listing |
+| PSD Parser Skill | `skills/psd-parser` | Confirms Skill package import and Python tool registration |
 
-## Detail View Coverage
-
-| Area | Expected Behavior |
-| --- | --- |
-| Heading hierarchy | Rendered with compact plugin detail typography |
-| Relative image | `docs/asset-browser-preview.svg` resolves against this README |
-| Table | Stays readable inside the detail pane |
-| Inline code | `Assets/Characters/Hero.prefab` keeps document styling |
-
-## Example Filter
+## PSD Tool Input
 
 ~~~json
-{
-  "filter": "type:Prefab path:Assets/Characters",
-  "groupBy": "folder",
-  "showDependencies": true
-}
+{ "path": "Assets/UI/mockup.psd" }
 ~~~
 
-This repository is intentionally minimal. The downloadable plugin package comes from a release or dynamic download source, while this README supplies the rich detail content.
+The parser reads only the PSD/PSB header and uses no third-party Python dependencies.
