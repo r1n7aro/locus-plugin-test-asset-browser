@@ -1,0 +1,36 @@
+{
+  "schema": "locus.skill.v1",
+  "id": "psd-parser",
+  "name": "PSD Parser",
+  "version": "0.1.1",
+  "description": "Parse PSD or PSB file headers and return basic image metadata.",
+  "argumentHint": "<psd file path>",
+  "command": {
+    "enabled": true,
+    "trigger": "/psd",
+    "argumentHint": "<psd file path>"
+  },
+  "tools": [
+    {
+      "name": "parse_psd_header",
+      "description": "Read a PSD/PSB header and return dimensions, channel count, bit depth, color mode, and file size.",
+      "runtime": "python",
+      "path": "scripts/parse_psd.py",
+      "input": "json-stdin",
+      "output": "json-stdout",
+      "timeoutMs": 30000,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "PSD or PSB file path. Relative paths resolve against the active workspace when available."
+          }
+        },
+        "required": [
+          "path"
+        ]
+      }
+    }
+  ]
+}
