@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "asset-browser-tools",
   "name": "Asset Browser Tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": {
     "projectIndependent": true
   },
