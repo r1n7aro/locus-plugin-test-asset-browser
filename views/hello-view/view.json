@@ -1,0 +1,19 @@
+{
+  "schema": "locus.view.v1",
+  "apiVersion": 1,
+  "id": "plugin-import-hello",
+  "name": "Plugin Import Hello",
+  "version": "0.1.1",
+  "template": "blank",
+  "displayPath": "Plugins/Import Tests/Hello View",
+  "icon": "Sparkles",
+  "entry": "src/main.ts",
+  "style": "src/style.css",
+  "scripts": [],
+  "capabilities": {
+    "unity": false
+  },
+  "requirements": {
+    "unityConnection": false
+  }
+}
