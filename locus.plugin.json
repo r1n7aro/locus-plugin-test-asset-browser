@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "com.locus.sample.asset-browser",
+  "id": "asset-browser-tools",
   "name": "Asset Browser Tools",
   "version": "0.1.1",
   "compatibility": {
